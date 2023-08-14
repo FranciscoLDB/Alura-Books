@@ -36,6 +36,7 @@
 }
 
 .container__botao:checked ~ .lista-menu {
+    z-index: 2;
     display: block;
     background-color: var(--cor-branco);
     width: 62.5vw;
