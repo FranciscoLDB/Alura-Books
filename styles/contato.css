@@ -26,6 +26,7 @@
     border: var(--cor-preto) solid 1px;
     border-radius: 1.5em;
     background-color: transparent;
+    color: var(--cor-azul);
     padding: 1em;
     width: 90%;
 }
@@ -41,6 +42,6 @@
 }
 
 .contato__email:focus{
-    background: rgba(0, 0, 0, 0.308);
+    background: rgba(0, 0, 0, 0.08);
     outline: 0;
 }
