@@ -17,13 +17,6 @@
     line-height: 1.5em;
 }
 
-.banner__caixa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5em;
-}
-
 .banner__input{
     border: var(--cor-branco) solid 1px;
     border-radius: 1.5em;
@@ -46,4 +39,26 @@
 .banner__input:focus{
     background: rgba(0, 0, 0, 0.308);
     outline: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .banner{
+        padding-inline: 13em;
+    }
+
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__texto {
+        font-weight: 500;
+    }
+
+    .banner__input{
+        padding: 1em 1em 1em 2em;  
+        width: 80%;
+    }
+    .banner__input::placeholder{
+        background-position: 6em;
+    }
 }
